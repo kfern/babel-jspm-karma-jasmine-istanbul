@@ -14,6 +14,7 @@ module.exports = function (config) {
 		jspm: {
 			config: 'src/config.js',
 			loadFiles: [
+                'src/jspm_packages/system-polyfills.js',
 				'src/*.spec.js'
 			],
 			serveFiles: [
